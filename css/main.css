@@ -306,10 +306,8 @@ rgba(98, 54, 255, 0.1) 93.75% 96.875%,
 rgba(98, 54, 255, 0.05) 96.875% 100%
 );
 }
-
 .fourth-content {
   width: 1440px;
-  background-color: #231f20;
 }
 .fourth-content h3 {
   text-align: center;
@@ -333,6 +331,106 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
 }
 .wrap div {
   height: 320px;
+}
+.wrap-section {
+  width: 1440px;
+  height: 2229px;
+  background-color: #231f20;
+}
+
+.wrap-form h3 {
+  margin: 0 auto;
+  padding-bottom: 64px;
+  margin-bottom: 64px;
+  padding-top: 64px;
+  width: 316px;
+  height: 56px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.wrap-form input, .wrap-form select {
+  width: 320px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #231f20;
+  margin-bottom: 21px;
+  padding: 8px;
+}
+.wrap-form label {
+  width: 49px;
+  /* height: 23px; */
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 5px;
+  padding: 0 8px;
+}
+
+.wrap-form .column-one {
+  width: 384px;
+}
+.wrap-form .column-two {
+  width: 560px;
+}
+.wrap-form form {
+  margin: 0 248px;
+  display: flex;
+}
+.wrap-form textarea {
+  width: 560px;
+  height: 212px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  
+}
+.wrap-form textarea {
+ 
+  font-family: Poppins;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #231f20;
+
+}
+.fifth-content h3 {
+  padding-bottom: 64px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 auto;
+  color: #ffffff;
+  margin-bottom: 64px;
+  padding-top: 64px;
+  width: 316px;
+  height: 56px;
+
+ 
 }
 
 /**
