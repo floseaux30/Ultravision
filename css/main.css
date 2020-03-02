@@ -53,7 +53,6 @@ h3 {
 
 h4 {
   /* Default font, size, and margins */
-  height: 33px;
   font-weight: bold;
   font-family: Poppins;
   color: #231f20;
@@ -88,9 +87,6 @@ h4 {
 }
 .box {
   display: flex;
-}
-.box div.col {
-  margin: 0px 32px 64px 48px;
 }
 .first-content .box .column-content p {
   width: 640px;
@@ -154,6 +150,67 @@ rgba(252,206,0, 0.01) 96.875% 100%
   margin: 0px 32px 64px 48px;
 }
 
+
+.second-content .box .column-content p {
+  width: 640px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #231f20;
+  margin-bottom:40px;
+}
+.second-content .box div {
+  width: 720px;
+}
+.second-content .box .column-img img {
+  width: 487px;
+  height: 471px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  margin-right: 15px;
+}
+.second-content .box .column-img {
+  width: 720px;
+  height: 512px;
+  background: #fff;
+  background: linear-gradient(to bottom,
+rgba(255,107,0, 0.81) 0% 50%,
+rgba(255,107,0, 0.61) 50% 75%,
+rgba(255,107,0, 0.41) 75% 87.5%,
+rgba(255,107,0, 0.21) 87.5% 93.75%,
+rgba(255,107,0, 0.1) 93.75% 96.875%,
+rgba(255,107,0, 0.05) 96.875% 100%
+);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.second-content button.learn-more {
+  width: 185px;
+  height: 48px;
+  border-radius: 15px;
+  border: solid 4px #ff6b00;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ff6b00;
+  background: #fff;
+  float: right;
+}
+.second-content .box .column-content,
+.second-content .box .column-img {
+  margin: 0px 32px 64px 48px;
+}
 
 /**
 * ----------
