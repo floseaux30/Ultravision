@@ -41,10 +41,26 @@ h2 {
 
 h3 {
   /* Default font, size, and margins */
+  height: 56px;
+  color: #231f20;
+  font-family: Poppins;
+  font-weight: 900;
+  text-align: center;
+  font-size: 40px;
+  margin: 64px 0px;
 }
+
 
 h4 {
   /* Default font, size, and margins */
+  height: 33px;
+  font-weight: bold;
+  font-family: Poppins;
+  color: #231f20;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 34px;
+  margin-top: 0;
 }
 
 /**
@@ -72,6 +88,70 @@ h4 {
 }
 .box {
   display: flex;
+}
+.box div.col {
+  margin: 0px 32px 64px 48px;
+}
+.first-content .box .column-content p {
+  width: 640px;
+  height: 345px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #231f20;
+  margin-bottom:40px;
+}
+.first-content .box div {
+  width: 720px;
+}
+.first-content .box .column-img img {
+  width: 487px;
+  height: 471px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  margin-right: 15px;
+}
+.first-content .box .column-img {
+  width: 720px;
+  height: 512px;
+  background: #fff;
+  background: linear-gradient(to bottom,
+rgba(252,206,0, 0.81) 0% 50%,
+rgba(252,206,0, 0.61) 50% 75%,
+rgba(252,206,0, 0.41) 75% 87.5%,
+rgba(252,206,0, 0.21) 87.5% 93.75%,
+rgba(252,206,0, 0.05) 93.75% 96.875%,
+rgba(252,206,0, 0.01) 96.875% 100%
+);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.first-content button.learn-more {
+  width: 185px;
+  height: 48px;
+  border-radius: 15px;
+  border: solid 4px #fcce00;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fcce00;
+  background: #fff;
+  float: right;
+}
+.first-content .box .column-content,
+.first-content .box .column-img {
+  margin: 0px 32px 64px 48px;
 }
 
 
