@@ -307,6 +307,34 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
 );
 }
 
+.fourth-content {
+  width: 1440px;
+  background-color: #231f20;
+}
+.fourth-content h3 {
+  text-align: center;
+  color: #ffffff;
+  width: 316px;
+  height: 56px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0 auto;
+  margin-bottom: 64px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 320px);
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  justify-content: center;
+}
+.wrap div {
+  height: 320px;
+}
+
 /**
 * ----------
 * Components
