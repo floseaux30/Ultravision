@@ -145,11 +145,9 @@ rgba(252,206,0, 0.01) 96.875% 100%
   background: #fff;
   float: right;
 }
-.first-content .box .column-content,
-.first-content .box .column-img {
-  margin: 0px 32px 64px 48px;
+.column-content {
+  padding: 0px 32px 64px 48px;
 }
-
 
 .second-content .box .column-content p {
   width: 640px;
@@ -210,6 +208,103 @@ rgba(255,107,0, 0.05) 96.875% 100%
 .second-content .box .column-content,
 .second-content .box .column-img {
   margin: 0px 32px 64px 48px;
+}
+.third-content .box-one,
+.third-content .box-two,
+.third-content .box-three {
+  display: flex;
+}
+.third-content .column-img img {
+  width: 745px;
+  height: 576px;
+  margin-top: 18px;
+  mix-blend-mode: multiply;
+  padding-right: 32px;
+}
+.third-content .column-content {
+  width: 694px;
+}
+.third-content .column-content p {
+  width: 487px;
+  height: 66px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.third-content h4.title-content {
+  width: 640px;
+  height: 45px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: unset;
+  color: #ffffff;
+  margin-top: 64px;
+}
+.third-content button {
+  width: 185px;
+  height: 45px;
+  border-radius: 15px;
+  border: solid 4px #ffffff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  background: transparent;
+  color: #ffffff;
+}
+.third-content .box-one {
+  width: 1440px;
+  height: 640px;
+  background: #fff;
+  background: linear-gradient(to bottom,
+rgba(224, 32, 32, 0.81) 0% 50%,
+rgba(224, 32, 32, 0.61) 50% 75%,
+rgba(224, 32, 32, 0.41) 75% 87.5%,
+rgba(224, 32, 32, 0.21) 87.5% 93.75%,
+rgba(224, 32, 32, 0.1) 93.75% 96.875%,
+rgba(224, 32, 32, 0.05) 96.875% 100%
+);
+}
+.third-content .box-two {
+  width: 1440px;
+  height: 640px;
+  background: #fff;
+  background: linear-gradient(to bottom,
+rgba(182, 32, 224, 0.81) 0% 50%,
+rgba(182, 32, 224, 0.61) 50% 75%,
+rgba(182, 32, 224, 0.41) 75% 87.5%,
+rgba(182, 32, 224, 0.21) 87.5% 93.75%,
+rgba(182, 32, 224, 0.1) 93.75% 96.875%,
+rgba(182, 32, 224, 0.05) 96.875% 100%
+);
+}
+.third-content .box-three {
+  width: 1440px;
+  height: 640px;
+  background: #fff;
+  background: linear-gradient(to bottom,
+rgba(98, 54, 255, 0.81) 0% 50%,
+rgba(98, 54, 255, 0.61) 50% 75%,
+rgba(98, 54, 255, 0.41) 75% 87.5%,
+rgba(98, 54, 255, 0.21) 87.5% 93.75%,
+rgba(98, 54, 255, 0.1) 93.75% 96.875%,
+rgba(98, 54, 255, 0.05) 96.875% 100%
+);
 }
 
 /**
