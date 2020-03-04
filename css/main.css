@@ -650,4 +650,31 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
     padding-top: 32px;
     padding-bottom: 45px;
   }
+  .fourth-content h3 {
+    color: #fff;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .fourth-content .wrap{
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    justify-content: unset;
+    margin: 15px;
+  }
+  .fourth-content {
+    width: 350px;
+    height: 972px;
+    overflow: hidden;
+
+  }
+  .wrap-section {
+    width: 350px;
+    height: 100%;
+    background-color: #231f20;
+  }
+  .fifth-content {
+    display: none;
+  }
 }
