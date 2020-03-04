@@ -12,7 +12,6 @@ body {
   height: 5896px;
   margin: 0 auto;
 }
-
 h1 {
   /* Default font, size, and margins */
   color: #ffffff;
@@ -38,7 +37,6 @@ h2 {
   text-align: center;
   margin: 8px 0px;
 }
-
 h3 {
   /* Default font, size, and margins */
   height: 56px;
@@ -49,8 +47,6 @@ h3 {
   font-size: 40px;
   margin: 64px 0px;
 }
-
-
 h4 {
   /* Default font, size, and margins */
   font-weight: bold;
@@ -93,11 +89,6 @@ h4 {
   height: 345px;
   font-family: Poppins;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: justify;
   color: #231f20;
   margin-bottom:40px;
@@ -136,10 +127,6 @@ rgba(252,206,0, 0.01) 96.875% 100%
   font-family: 'Poppins';
   font-size: 20px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #fcce00;
   background: #fff;
@@ -148,16 +135,10 @@ rgba(252,206,0, 0.01) 96.875% 100%
 .column-content {
   padding: 0px 32px 64px 48px;
 }
-
 .second-content .box .column-content p {
   width: 640px;
   font-family: Poppins;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: justify;
   color: #231f20;
   margin-bottom:40px;
@@ -196,10 +177,6 @@ rgba(255,107,0, 0.05) 96.875% 100%
   font-family: 'Poppins';
   font-size: 20px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #ff6b00;
   background: #fff;
@@ -229,11 +206,6 @@ rgba(255,107,0, 0.05) 96.875% 100%
   height: 66px;
   font-family: Poppins;
   font-size: 24px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
   margin-bottom: 32px;
 }
@@ -243,10 +215,6 @@ rgba(255,107,0, 0.05) 96.875% 100%
   font-family: Poppins;
   font-size: 32px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: unset;
   color: #ffffff;
   margin-top: 64px;
@@ -259,10 +227,6 @@ rgba(255,107,0, 0.05) 96.875% 100%
   font-family: Poppins;
   font-size: 24px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   background: transparent;
   color: #ffffff;
@@ -337,7 +301,6 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   height: 2229px;
   background-color: #231f20;
 }
-
 .wrap-form h3 {
   margin: 0 auto;
   padding-bottom: 64px;
@@ -348,10 +311,6 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   font-family: Poppins;
   font-size: 40px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #ffffff;
 }
@@ -362,11 +321,6 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   background-color: #ffffff;
   font-family: Poppins;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #231f20;
   margin-bottom: 21px;
   padding: 8px;
@@ -376,17 +330,11 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   /* height: 23px; */
   font-family: Poppins;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #ffffff;
   display: block;
   margin-bottom: 5px;
   padding: 0 8px;
 }
-
 .wrap-form .column-one {
   width: 384px;
 }
@@ -402,20 +350,13 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   height: 212px;
   border-radius: 8px;
   background-color: #ffffff;
-  
 }
 .wrap-form textarea {
  
   font-family: Poppins;
   padding: 8px;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #231f20;
-
 }
 .fifth-content h3 {
   padding-bottom: 64px;
@@ -429,13 +370,11 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   padding-top: 64px;
   width: 316px;
   height: 56px;
-
- 
 }
 
 /**
 * ----------
-* Components
+* Media Queries
 * ----------
 */
 
@@ -513,10 +452,6 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   height: 690px;
   font-family: Poppins;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
   text-align: justify;
   color: #231f20;
   margin: 0 auto;
@@ -563,11 +498,6 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   width: 320px;
   font-family: Poppins;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: justify;
   color: #231f20;
   margin: 0 auto;
@@ -599,7 +529,7 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
     margin-left: 15px;
     padding-right : 0 !important;
     margin-top: 0 !important;
-}
+  }
   .third-content .windows {
     width: 350px;
     height: 640px;
@@ -614,12 +544,6 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
     margin-left: 15px;
     margin-top: 33px;
   }
- /* .third-content h3 {
-    width: 320px;
-    height: 28px;
-    margin: 0 auto;
-    margin-bottom: 32px;
-  }*/
   .third-content .column-content p {
     width: 320px;
     height: 75px;
