@@ -91,7 +91,6 @@ h4 {
   font-size: 16px;
   text-align: justify;
   color: #231f20;
-  margin-bottom:40px;
 }
 .first-content .box div {
   width: 720px;
@@ -119,6 +118,9 @@ rgba(252,206,0, 0.01) 96.875% 100%
   justify-content: flex-end;
   align-items: flex-end;
 }
+.first-content .box {
+  margin-bottom: 50px;
+}
 .first-content button.learn-more {
   width: 185px;
   height: 48px;
@@ -145,6 +147,9 @@ rgba(252,206,0, 0.01) 96.875% 100%
 }
 .second-content .box div {
   width: 720px;
+}
+.second-content .column-content {
+    padding: 0 50px 0 33px;
 }
 .second-content .box .column-img img {
   width: 487px;
@@ -182,10 +187,7 @@ rgba(255,107,0, 0.05) 96.875% 100%
   background: #fff;
   float: right;
 }
-.second-content .box .column-content,
-.second-content .box .column-img {
-  margin: 0px 32px 64px 48px;
-}
+
 .third-content .box-one,
 .third-content .box-two,
 .third-content .box-three {
@@ -378,7 +380,7 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
 * ----------
 */
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 500px) {
   body {
     /* Default font family and font color */
     width: 350px;
@@ -449,7 +451,7 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   }
   .first-content .box .column-content p {
   width: 320px;
-  height: 690px;
+  height: 610px;
   font-family: Poppins;
   font-size: 16px;
   text-align: justify;
@@ -459,8 +461,8 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   .first-content button.learn-more {
     width: 185px;
     margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-bottom: 0px;
     display: flex;
     float: unset;
     justify-content: center;
