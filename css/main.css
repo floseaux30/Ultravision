@@ -4,21 +4,26 @@
 * Global Styles
 * -------------
 */
+
+/*chargement de la police d'ecriture  */
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
 
+/*corp de site*/
 body {
   /* Default font family and font color */
   width: 1440px;
   height: 5896px;
   margin: 0 auto;
 }
+
+/*titres*/
 h1 {
   /* Default font, size, and margins */
   color: #ffffff;
   font-family: 'Poppins';
   font-size: 88px;
   font-weight: 900;
-  text-transform: uppercase;
+  text-transform: uppercase;/*uppercase = majuscules*/
   background-color: #fcce00;
   opacity: 0.81;
   height: 128px;
@@ -57,12 +62,16 @@ h4 {
   margin-bottom: 34px;
   margin-top: 0;
 }
+/* fin de titre */
+
 
 /**
 * ------
 * Layout
 * ------
 */
+
+/*couleur en dessous des titres */
 .sub-title-one {
   height: 32px;
   opacity: 0.81;
@@ -81,9 +90,12 @@ h4 {
   background-color: #6236ff;
   margin: 8px 0px;
 }
+
+
 .box {
   display: flex;
 }
+/* first-content = premiere section */
 .first-content .box .column-content p {
   width: 640px;
   height: 345px;
@@ -106,6 +118,7 @@ h4 {
   width: 720px;
   height: 512px;
   background: #fff;
+  /* couleur de fond en degrader*/
   background: linear-gradient(to bottom,
 rgba(252,206,0, 0.81) 0% 50%,
 rgba(252,206,0, 0.61) 50% 75%,
@@ -137,6 +150,7 @@ rgba(252,206,0, 0.01) 96.875% 100%
 .column-content {
   padding: 0px 32px 64px 48px;
 }
+/* second-content = deuxieme section */
 .second-content .box .column-content p {
   width: 640px;
   font-family: Poppins;
@@ -187,7 +201,7 @@ rgba(255,107,0, 0.05) 96.875% 100%
   background: #fff;
   float: right;
 }
-
+/* third-content = troisieme section */
 .third-content .box-one,
 .third-content .box-two,
 .third-content .box-three {
@@ -272,6 +286,8 @@ rgba(98, 54, 255, 0.1) 93.75% 96.875%,
 rgba(98, 54, 255, 0.05) 96.875% 100%
 );
 }
+/* fourth-content = quatrieme section */
+
 .fourth-content {
   width: 1440px;
 }
@@ -288,21 +304,26 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   padding-top: 64px;
   padding-bottom: 64px;
 }
+
+/*grid = grille contenant les 12 images en tableau*/
 .wrap {
   display: grid;
   grid-template-columns: repeat(4, 320px);
-  grid-column-gap: 32px;
-  grid-row-gap: 32px;
+  grid-column-gap: 32px;/* espaces entre les colonnes*/
+  grid-row-gap: 32px;/* espaces entre les lignes*/
   justify-content: center;
 }
 .wrap div {
   height: 320px;
 }
+/* wrap-section = contient les deux derniere section */
+
 .wrap-section {
   width: 1440px;
   height: 2229px;
   background-color: #231f20;
 }
+/* form = formulaire */
 .wrap-form h3 {
   margin: 0 auto;
   padding-bottom: 64px;
@@ -380,6 +401,7 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
 * ----------
 */
 
+/* media queries = responsive*/
 @media screen and (max-width: 500px) {
   body {
     /* Default font family and font color */
@@ -422,7 +444,7 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   }
   .box {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column-reverse;/* direction des colonnes = inversé*/
   }
   .box div {
   margin: 0;
@@ -509,7 +531,7 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
   }
   .second-content .box {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* direction en colonnes = normal */
   }
   .second-content .box .column-img img {
     width: 183.5px;
@@ -526,7 +548,12 @@ rgba(98, 54, 255, 0.05) 96.875% 100%
     height: 247.5px !important;
     object-fit: contain;
     opacity: 0.9;
+
+    /* définit la façon dont le contenu d'un élément
+    doit se mélanger avec le contenu de l'élément 
+    parent exemple l'image prend la couleur de fond */
     mix-blend-mode: darken !important;
+
     margin: 0 auto;
     margin-left: 15px;
     padding-right : 0 !important;
